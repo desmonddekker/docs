@@ -28,6 +28,9 @@
 ### Niek Dijkhuis
 
 
+### Corne van Schaik
+
+
 ### Desmond Dekker
 
 
@@ -39,4 +42,6 @@
 
 ### Stanislav Evseev
 
+
+### Jocelin Shumbushoniyonzima
 

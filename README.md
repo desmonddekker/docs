@@ -35,7 +35,8 @@ BitDust is a distributed network for backup data storage and independent on-line
 + [Finite State Machines](automats.md)
 + [Technologies](technologies.md)
 + [API Interface](api.md)
-+ [Known bugs](bugs.md)
++ [Software releases](software_releases.md)
++ [Contributors and Supporters](respect.md)
 
 
 [bitdust.io](https://bitdust.io)

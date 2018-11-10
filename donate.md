@@ -1,60 +1,33 @@
 # Donation / Your Contribution
 
 
-## BitCoin
+## BitCoin wallet:
 
-wallet:
-
-    1N78KKjKbAT8MEYVKAh6vEHBH7rjzGGZtq
+    1J7u7BecQkfKBncRM66bFYWBUHidD6558L
 
 
 
-## Yandex.Money
+## Ethereum wallet:
 
-account: 
-    
-    41001886462038
+    0xE63cf9A090BA57013eAA3FA2015e5fbd2D8763b2
 
 
     
-## PayPal
+## PayPal account:
 
-account:
-
-    katy-katerina@yandex.ru
+    bitdust.io@gmail.com
     
 
 
-## Sberbank On-Line
 
-account:
+## Sberbank On-Line account:
     
     4276 8550 1191 2975 
 
 
-    
+
 ## Personally
 
 You are welcome to contact us by e-mail
 [bitdust.io@gmail.com](mailto:bitdust.io@gmail.com)
 for agreeing on other methods of supporting BitDust project.
-
-
-## Great Thanks to:
-
-+ Kozlov Nikolay
-+ Vincent Cate
-+ Karasev Petr
-+ Kashin Albert
-+ Daniel Petrarca
-+ Niek Dikhuis
-+ Oleg Mackarov
-+ Jordi
-+ Renato Cardoso
-+ Anton Grishun
-+ Desmond Dekker
-+ Corne van Schaik
-
-
-<div class=fbcomments markdown="1">
-</div>
