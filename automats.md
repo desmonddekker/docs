@@ -271,20 +271,6 @@ You can click on every item in the list to look at transition graph of the state
 * [udp_stream()](automat_udp_stream.md)
 
 
-## Microservices Tree
-
-BitDust software was developed using [service-oriented architecture](https://en.wikipedia.org/wiki/Microservices) and bellow you can see a dependencies tree of all [network services](services.md) currently exist in the software.
-
-Most network services were implemented using finite state machines, on the picture you can see corresponding automatas as a blue labels. 
-
-
-<div class=automatpng markdown="1">
-[![BitDust Microservices Tree](services/bitdust_services_tree.png)](services/bitdust_services_tree.pdf)
-</div>
-
-[bitdust_services_tree.vsd](services/bitdust_services_tree.vsd)
-
-
 
 <div class=fbcomments markdown="1">
 </div>
