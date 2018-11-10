@@ -8,7 +8,6 @@
 * [Transition Graphs](#transition-graphs)
 * [visio2python](#visio2python)
 * [BitDust automatas list](#bitdust-automatas-list)
-* [Microservices Tree](#microservices-tree)
 
 
 ## Introduction
