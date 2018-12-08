@@ -47,11 +47,11 @@ We firmly believe that an open source code, proper documentation and visualizati
 
 ## Usability
 
-With advanced level of security and anonymity all BitDust users have an opportunity to:
+With advanced level of security and anonymity all BitDust users will have an opportunity to:
 
-  * private access to the fully-distributed on-line storage
+  * gain private access to the fully-distributed on-line storage
   * group access to the uploaded data
-  * file exchange
+  * do files transfers
   * p2p chat/video/conferencing
   * decentralized emails
   * global p2p search over published data
