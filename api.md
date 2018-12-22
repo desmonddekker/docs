@@ -956,5 +956,3 @@ If all is good this method will block for `wait_timeout` seconds.
 In case of some network issues method will return result asap.
 
 
-
-

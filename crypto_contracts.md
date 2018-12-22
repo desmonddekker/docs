@@ -406,5 +406,3 @@ When Bob decides to get refund for his services, same process will be repeated f
 
 <div class=fbcomments markdown="1">
 </div>
-
-

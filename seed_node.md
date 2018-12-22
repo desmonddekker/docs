@@ -80,3 +80,7 @@ If you plan to maintain your new BitDust node for awhile and support the network
 
 You can Fork [Public Git Repository](https://github.com/bitdust-io/public), modify `networks.json` file in your forked repository and start a [Pull Request](https://github.com/bitdust-io/public/pulls) with your changes - this way we can collaborate all together and maintain a list of the most reliable BitDust seed nodes.
 
+
+
+<div class=fbcomments markdown="1">
+</div

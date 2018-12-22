@@ -3,7 +3,7 @@
 
 ## BitCoin wallet:
 
-    1J7u7BecQkfKBncRM66bFYWBUHidD6558L
+    1FiTczw1GeaEdMoGbQWngWT8gCirYuzfne
 
 
 
@@ -17,13 +17,6 @@
 
     bitdust.io@gmail.com
     
-
-
-
-## Sberbank On-Line account:
-    
-    4276 8550 1191 2975 
-
 
 
 ## Personally

@@ -8,6 +8,7 @@
 + [Philosophy](philosophy.md)
 + [How Does It Work?](principle.md)
 + [Installation](install.md)
++ [Seed node](seed_node.md)
 + [Commands](commands.md)
 + [Settings](settings.md)
 + [Glossary](glossary.md)

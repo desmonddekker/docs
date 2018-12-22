@@ -66,3 +66,5 @@ We fully support the position of the GNU community, and Richard Stallman persona
 We believe that single team of developers, or even a big IT company is not able to create some kind of "super multi-purpose" application that meets the needs of all users in the World. Only the community itself, as a number of independent developers, operating autonomously and independently, will create a wide variety of applications with a common core running on a generic "engine". The objective of BitDust project is not to keep software development under our control, but rather to create such a new foundation and provide support to other people who are doing progressive development of the network and finally influence them in a positive sense.
 
 
+<div class=fbcomments markdown="1">
+</div>
