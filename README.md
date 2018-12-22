@@ -22,6 +22,7 @@ BitDust is a distributed network for backup data storage and independent on-line
 + [User Identification](identities.md)
 + [Distributed Storage](storage.md)
 + [Data Security](security.md)
++ [File Sharing](sharing.md)
 + [Automatic Rebuilding](rebuilding.md)
 + [Distributed Hash-Table](dht.md)
 + [Network services](services.md)

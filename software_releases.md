@@ -38,6 +38,11 @@ Now import fresh code from "devel" repo on top of existing files:
     ./import ../bitdust.devel/
 
 
+Turn OFF DEBUG mode in all Python files:
+
+    find . -type f -name "*.py" -exec sed -i 's/_Debug = True/_Debug = False/g' {} +
+
+
 Mark all modified files in git to be commited in the new release:
 
     git add -u .
@@ -54,20 +59,15 @@ If some files or folders was removed from "devel" repo - do not forget to also r
     git add -u . 
 
 
-Check again to be sure you didn't miss to remove / add any other files. Some files and folders should be excluded from "stable" repo:
+Check again to be sure you didn't miss to remove / add any other files. Some files and folders should be excluded from "stable" repo so this bellow command will help you to identify differences:
 
     cd ..
-    diff --brief -r bitdust bitdust.devel/ | grep -v ".git" | grep -v "__pycache__" | grep -v ".pyc" | grep "Only in"
-    Only in bitdust: LICENSE
+    diff --brief -r bitdust/ bitdust.devel/ | grep -v ".DS_Store" | grep -v "site-packages" | grep -v ".git" | grep -v "__pycache__" | grep -v ".pyc" | grep "Only in"
+
+    Only in bitdust.devel/: HISTORY.txt
     Only in bitdust.devel/: deploy
-    Only in bitdust: import
-    Only in bitdust.devel/: release
-    Only in bitdust.devel/: scripts
-
-
-Turn OFF DEBUG mode in all Python files:
-
-    find . -type f -name "*.py" -exec sed -i 's/_Debug = True/_Debug = False/g' {} +
+    Only in bitdust/: import
+    ...
 
 
 Do not commit your changes yet!
@@ -78,9 +78,10 @@ Change back to "devel" repo and run such command to list all commits added to "d
 
 
 File `HISTORY.TXT` was created and now it is time to describe which changes we are going to publish in the `CHANGELOG.txt`.
+
 Copy text block from `HISTORY.TXT` file into `CHANGELOG.txt` and make it nice-looking:
 
-    cat HISTORY.TXT
+    head -30 HISTORY.TXT
     nano CHANGELOG.txt
 
 
