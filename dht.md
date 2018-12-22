@@ -37,9 +37,16 @@ The following table has a list of command boxes, which can be written to the has
 
 ## Support BitDust network
 
-If you wish to support BitDust project, willing to support other nodes when they are connecting to the netowork and be sure your machine will work reliable - you can become a part of BitDust "proto-netowork". BitDust will be running constantly ony your device and re-route incoming DHT requests from other nodes.
+If you agree to support other BitDust users when they are connecting to the network and would like to become a "Seed node" in BitDust network you can add your node to the [networks.json](https://github.com/bitdust-io/public/blob/master/networks.json) file which is located in the root of BitDust repository.
 
-Contact with BitDust team to notify about this new DHT node was started by you and we will add your IP:port in the list of [known_nodes.py](https://github.com/bitdust-io/public/blob/fd536b01983f419030fa070b95d18c11da502b46/dht/known_nodes.py#L36).
+Make sure BitDust is running constantly on you machine and it works reliable and connected to the Internet.
+You will be a part of BitDust "proto-network" and receive incoming DHT requests from other nodes when they are connecting to the network first time.
+
+This is how Distributed Hash Table works - it is well-scalable, but requires some of the nodes to be on-line all the time. But it shouldn't create a lot of traffic on those nodes because any other node will hit "seed node" only once - when they are joining DHT network for the first time.
+
+To include yourself into a list of "well-known" seed nodes - first create a fork of [Public Git Repository](https://github.com/bitdust-io/public), modify `networks.json` file in your forked repository and start a [Pull Request](https://github.com/bitdust-io/public/pulls) with your changes - this way we can collaborate all together and maintain a list of the most reliable BitDust seed nodes.
+
+Contact with BitDust contributors to notify about this new DHT node was started by you and one of the developers will approve your Pull Request.
 
 
 <div class=fbcomments markdown="1">

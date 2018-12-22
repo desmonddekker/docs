@@ -31,7 +31,7 @@ Create BitDust virtual Python environent:
 
 Few services needs to be enabled, by default they are turned off because normal user will most probably act as a customer/consumer at the beginning.
 
-Switch ON identity server on your node so you will help other people to identify in the netowork - other users will store their identities on your host:
+Switch ON identity server on your node so you will help other people to identify in the network - other users will store their identities on your host:
 
         bitdust set services/identity-server/enabled true
         bitdust set services/identity-server/host my-domain-name.com
@@ -68,7 +68,8 @@ Now you can interact with BitDust software running on your local machine via HTT
 
 Make sure you also did a backup of your private key and copied that in a safe place.
 
-        curl -X POST -d '{"destination_path": "~/bitdust_identity_backup.txt"}' localhost:8180/identity/backup/v1
+        curl -X POST -d '{"destination_path": "/tmp/bitdust_identity_backup.txt"}' localhost:8180/identity/backup/v1
+        mv /tmp/bitdust_identity_backup.txt /media/USB_drive/
 
 
 Restart BitDust and enjoy, your identity should be accessable on `http://my-domain-name.com/root.xml` if all steps were correct.
@@ -80,7 +81,9 @@ If you plan to maintain your new BitDust node for awhile and support the network
 
 You can Fork [Public Git Repository](https://github.com/bitdust-io/public), modify `networks.json` file in your forked repository and start a [Pull Request](https://github.com/bitdust-io/public/pulls) with your changes - this way we can collaborate all together and maintain a list of the most reliable BitDust seed nodes.
 
+Contact with BitDust contributors to notify about this new Seed node was started by you and one of the developers will approve your Pull Request.
+
 
 
 <div class=fbcomments markdown="1">
-</div
+</div>
