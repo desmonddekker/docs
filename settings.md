@@ -21,6 +21,12 @@ List all available settings and its current values:
 
 
 ## List of options
+### .DS_Store (undefined)
+
+.DS_Store, default value: None
+
+
+
 ### interface/api/json-rpc-enabled (boolean)
 
 interface/api/json-rpc-enabled, default value: true
@@ -334,6 +340,12 @@ services/contract-chain/enabled, default value: false
 ### services/customer-contracts/enabled (boolean)
 
 services/customer-contracts/enabled, default value: false
+
+
+
+### services/customer-family/enabled (boolean)
+
+services/customer-family/enabled, default value: true
 
 
 
@@ -711,7 +723,7 @@ services/supplier-contracts/enabled, default value: false
 
 ### services/supplier-relations/enabled (boolean)
 
-services/supplier-relations/enabled, default value: true
+services/supplier-relations/enabled, default value: false
 
 
 
@@ -812,6 +824,12 @@ Disable this if you do not want to use UDP-transport for receiving packets from 
 services/udp-transport/sending-enabled, default value: true
 
 Disable this if you do not want to use UDP-transport for sending packets to other users.
+
+
+### supplier (undefined)
+
+supplier, default value: None
+
 
 
 
