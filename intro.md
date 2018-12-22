@@ -1,6 +1,6 @@
 # About the Project
 
-BitDust is a distributed on-line storage and communication network where only data owner posses full access to his personal data.
+BitDust is a distributed on-line storage and communication network platform where only data owner posses full access to his personal data.
 
 Imagine a situation when two friends and you agree to help each other to store the data. On your computer you store the data that both of your friends uploaded to you via Internet, and you in turn can use the free space on their machines to save your files. This creates [redundancy](storage), but allows storing important data in a safer way. It is also a fair deal, because all three are interested in the maximum safety and availability of stored information.
 
