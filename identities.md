@@ -35,9 +35,13 @@ This kind of storage is done with the use of multiple machines also called ID-se
 
 ID-server is a part of BitDust program, but by default it is turned off in the program settings. If required each user can turn on this option himself and start such a server on his own computer – then ID-server will be automatically started during BitDust program start. ID-server consume almost no computer resources, but will allow you to support other nodes and increase total fault-tolerance of the whole BitDust network.
 
-If you feel enthusiastic now, read more about how to run your own identity server in BitDust network in 5 minutes on [Start new Identity Server](identity_server.md) page.
+If you feel enthusiastic now, read more about how to run your own identity server in BitDust network in 5 minutes on [Start new Identity Server](identity_server.md) page or how to run a [Full Seed node](seed_node.md) from scratch.
 
-Once you succeeded - contact us and we will include your machine address in official BitDust "seed nodes" list, published on [Git Hub](https://github.com/bitdust-io/public/blob/master/userid/known_servers.py) and [dev.bitdust.io](https://dev.bitdust.io/code/public/blob/master/userid/known_servers.py).
+If you plan to maintain your BitDust node for awhile and support the network it make sense to include your node into a list of "well known" nodes, which are hard-coded in [networks.json](https://github.com/bitdust-io/public/blob/master/networks.json) file.
+
+You can Fork [Public Git Repository](https://github.com/bitdust-io/public), modify `networks.json` file in your forked repository and start a [Pull Request](https://github.com/bitdust-io/public/pulls) with your changes - this way we can collaborate all together and maintain a list of the most reliable BitDust Identity servers.
+
+Contact with BitDust contributors to notify about this new Identity Server was started by you and one of the developers will approve your Pull Request.
 
 
 
