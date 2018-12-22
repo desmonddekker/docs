@@ -169,7 +169,7 @@ Use `include_private=True` to get Private Keys as openssh formated strings.
     }]}
 
 
-## key\_create(key\_alias, key\_size=2048, include\_private=False)
+## key\_create(key\_alias, key\_size=None, include\_private=False)
 
 Generate new Private Key and add it to the list of known keys with given `key_id`.
 
@@ -827,7 +827,7 @@ Return list of active sending/receiveing files.
 
 
 
-## user\_ping(idurl\_or\_global\_id, timeout=10)
+## user\_ping(idurl\_or\_global\_id, timeout=10, retries=2)
 
 Sends Identity packet to remote peer and wait for Ack packet to check connection status.
 The "ping" command performs following actions:
