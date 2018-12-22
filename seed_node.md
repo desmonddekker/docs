@@ -71,8 +71,12 @@ Make sure you also did a backup of your private key and copied that in a safe pl
         curl -X POST -d '{"destination_path": "~/bitdust_identity_backup.txt"}' localhost:8180/identity/backup/v1
 
 
-Restart BitDust and enjoy:
+Restart BitDust and enjoy, your identity should be accessable on `http://my-domain-name.com/root.xml` if all steps were correct.
 
         bitdust restart
 
+
+If you plan to maintain your new BitDust node for awhile and support the network it make sense to include your node into a list of "well known" nodes, which are hard-coded in [networks.json](https://github.com/bitdust-io/public/blob/master/networks.json) file.
+
+You can Fork [Public Git Repository](https://github.com/bitdust-io/public), modify `networks.json` file in your forked repository and start a [Pull Request](https://github.com/bitdust-io/public/pulls) with your changes - this way we can collaborate all together and maintain a list of the most reliable BitDust seed nodes.
 
