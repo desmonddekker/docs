@@ -101,7 +101,7 @@ Provide detailed info about all options and values from settings.
 
 
 
-## identity\_create(username)
+## identity\_create(username, preferred\_servers=[])
 
 
 ## identity\_backup(destination\_filepath)
@@ -440,7 +440,7 @@ Abort currently running restore process.
 
 
 
-## share\_grant(trusted\_remote\_user, key\_id)
+## share\_grant(trusted\_remote\_user, key\_id, timeout=30)
 
 
 
@@ -954,5 +954,19 @@ network connection.
 Be sure BitDust software is connected to other nodes in the network.
 If all is good this method will block for `wait_timeout` seconds.
 In case of some network issues method will return result asap.
+
+
+## dht\_node\_find(node\_id\_64=None)
+
+
+## dht\_value\_get(key, record\_type='skip\_validation')
+
+
+## dht\_value\_set(key, value, expire=None, record\_type='skip\_validation')
+
+
+## dht\_local\_db\_dump()
+
+
 
 
