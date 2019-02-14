@@ -21,12 +21,6 @@ List all available settings and its current values:
 
 
 ## List of options
-### .DS_Store (undefined)
-
-.DS_Store, default value: None
-
-
-
 ### interface/api/json-rpc-enabled (boolean)
 
 interface/api/json-rpc-enabled, default value: true
@@ -824,12 +818,6 @@ Disable this if you do not want to use UDP-transport for receiving packets from 
 services/udp-transport/sending-enabled, default value: true
 
 Disable this if you do not want to use UDP-transport for sending packets to other users.
-
-
-### supplier (undefined)
-
-supplier, default value: None
-
 
 
 
