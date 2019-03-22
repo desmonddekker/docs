@@ -1,6 +1,6 @@
 # Welcome to BitDust
 
-## Distributed on-line storage network
+### Distributed on-line storage network
 
 BitDust - is decentralized, secure and anonymous on-line storage, where only the owner has access and absolute control over its data.
 
