@@ -3,7 +3,7 @@
 
 ## Microservices Tree
 
-BitDust software is developing based on [service-oriented architecture](https://en.wikipedia.org/wiki/Microservices) and bellow you can see a dependencies tree of all network services currently exist in the software.
+BitDust software is developed based on [service-oriented architecture](https://en.wikipedia.org/wiki/Microservices) and below you can see a dependencies tree of all network services that currently exist in the software.
 
 Most network services were implemented using [finite state machines](automats.md), on the picture you can see corresponding automatas as a blue labels. 
 

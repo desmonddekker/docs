@@ -1,5 +1,6 @@
 # BitDust Technologies
 
+Below you can find the technologies being used for the development of BitDust.
 
 ## Back-End
 

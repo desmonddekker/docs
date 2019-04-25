@@ -12,27 +12,15 @@
 
 ## About
 
-#### BitDust is a peer-to-peer online backup utility.
+#### Decentralized encrypted storage platform
 
-This is a distributed network for backup data storage. Each participant of the network provides a portion of his hard drive for other users. In exchange, he is able to store his data on other peers.
+The lack of secure storage is a problem for Internet users. BitDust decentralized encrypted storage platform solves this problem by providing users the ability to store their data fully encrypted on a decentralized network via an easy-to-use application. Providing them the ability to share data only with trusted contacts.
 
-The redundancy in backup makes it so if someone loses your data, you can rebuild what was lost and give it to someone else to hold. And all of this happens without you having to do a thing - the software keeps your data in safe.
-
-All your data is encrypted before it leaves your computer with a private key your computer generates. No one else can read your data, even BitDust Team! Recover data is only one way - download the necessary pieces from computers of other peers and decrypt them with your private key.
+All your data is encrypted before it leaves your computer with a private key that your computer generates. No one else can read your data, not even the BitDust Team! 
 
 BitDust is written in Python using pure Twisted framework and published under GNU AGPLv3.
 
-
-#### Current status
-
-Current project stage is about to only research opportunities of
-building a holistic eco-system that protects your privacy in the network
-by establishing p2p communications of users and maximize distribution of
-information flows in the network.
-
-At the moment exists a very limited alpha version of the BitDust software.
-We decided to publish those earlier works to verify/test/share our ideas and experiments with other people.
-
+There is an early alpha version available for Windows, Mac and Linux. Any feedback in regards to this alpha version is much appreciated. Please provide your feedback to info@bitdust.io .
 
 
 ## Install software dependencies
@@ -67,12 +55,12 @@ On Raspberry PI you will need to install those packages:
 
 ## Get BitDust sources to your local machine
 
-Second step is to get the BitDust sources. To have a full control over BitDust process running on your local machine you better make a fork of the Public BitDist repository on GitHub at https://github.com/bitdust-io/public and clone it on your local machine:
+Second step is to get the BitDust sources. To have full control over the BitDust process running on your local machine you can better make a fork of the Public BitDist repository on GitHub at https://github.com/bitdust-io/public and clone it on your local machine:
 
         git clone https://github.com/<your GitHub username>/<name of BitDust fork>.git bitdust
 
 
-The software will periodically run `git fetch` and `git rebase` to check for recent commits in the repo. This way we make sure that everyone is running the latest version of the program. Once you made a fork, you will have to update your Fork manually and pull commits from Public BitDust repository if you trust them.
+The software will periodically run `git fetch` and `git rebase` to check for recent commits in the repo. This way we make sure that everyone is running the latest version of the program. Once you made a fork, you will have to update your Fork manually and pull commits from the Public BitDust repository if you trust them.
 
 However if you just trust BitDust contributors you can simply clone the Public repository directly and software will be up to date with the "official" public code base:
 
@@ -82,9 +70,9 @@ However if you just trust BitDust contributors you can simply clone the Public r
 
 ## Building virtual environment
 
-Then you need to build virtual environment with all required Python dependencies, BitDust software will run fully isolated.
+Afterwards you will need to build virtual environment with all the required Python dependencies, making sure BitDust software will run fully isolated.
 
-Single command should make it for you, all required files will be generated in `~/.bitdust/venv/` folder:
+Single command should make it for you, all required files will be generated in the `~/.bitdust/venv/` folder:
 
         cd bitdust
         python bitdust.py install
@@ -103,17 +91,17 @@ Start using the software by creating an identity for your device in BitDust netw
         bitdust id create <some nick name>
        
 
-I recommend you to create another copy of your Private Key in a safe place to be able to recover your data in the future. You can do it with such command:
+I recommend you to create another copy of your Private Key in a safe place to be able to recover your data in the future. You can do it with this command:
 
         bitdust key copy <nickname>.bitdust.key
 
 
-In the future, just in case you need to restore access to your data, you will need to install BitDust on again and recover your identity:
+In the future, just in case you need to restore access to your data, you will need to install BitDust again and recover your identity:
 
         bitdust id restore <nickname>.bitdust.key
 
 
-Your settings and local files are located in that folder: `~/.bitdust/`
+Your settings and local files are located in this folder: `~/.bitdust/`
 
 Type this command to read more info about BitDust commands:
 

@@ -1,5 +1,7 @@
 # BitDust supporters and contributors
 
+### The following people have contributed in the past or are still contributing to the BitDust project. 
+
 
 ### Veselin Penev
 
