@@ -14,18 +14,23 @@ BitDust project development flow is based on two independent GIT repositories:
 * [Stable repository](https://github.com/bitdust-io/public)
 
 
-When changes in the development repo are considered to be "good enough" files are manually copied by one of the developers to the stable repo and new Pull Request is started.
+When changes in the development repo are considered to be "good enough" files are manually copied by one of the developers to the stable repo and new Pull Request is started towards "upstream/master" on Stable repository.
 This process can be considered as a new "Release" - we do not have any versioning of the releases.
-After Pull Request gets merged - release is done.
 
-Every BitDust node periodically "check & fetch" fresh commits from GIT repository where it was cloned from.
-This way BitDust software automatically "updating itself" and stay in sync with "Stable" repository.
+After Pull Request is merged - release is done and developers do not need to do anything else to deploy the fresh code.
+
+Each and every BitDust node suppose to periodically "check & fetch" fresh commits from GIT repository where it was cloned first time from. Once new changes detected and fetched, BitDust software will automatically restart itself,
+if configured with default settings, to apply the new code.
+
+This way BitDust software automatically "updating itself" and stay in sync with "Stable" repository. Developers are responsible to deliver reliable and well-implemted code to the public.
+
+Every user of BitDust software can disabled automatic updates at any moment in the program settings. You can create a fork of BitDust "stable" repo and run main python code from your own repo - so you will be fully independent from other developers.
 
 Bellow is a step-by-step guide to deliver changes from "Development" repository into "Stable".
 
 
 
-## Release run book
+## Run Book
 
 Change to "stable" repo folder, you must have it already cloned locally in `./bitdust` folder:
 
@@ -40,7 +45,7 @@ Now import fresh code from "devel" repo on top of existing files:
 
 Turn OFF DEBUG mode in all Python files:
 
-    find . -type f -name "*.py" -exec sed -i 's/_Debug = True/_Debug = False/g' {} +
+    find . -type f -name "*.py" -exec sed -i '' -e 's/_Debug = True/_Debug = False/g' {} +
 
 
 Mark all modified files in git to be commited in the new release:
@@ -81,7 +86,7 @@ File `HISTORY.TXT` was created and now it is time to describe which changes we a
 
 Copy text block from `HISTORY.TXT` file into `CHANGELOG.txt` and make it nice-looking:
 
-    head -30 HISTORY.TXT
+    head -50 HISTORY.TXT
     nano CHANGELOG.txt
 
 

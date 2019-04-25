@@ -113,6 +113,11 @@ Be sure ID server is up and running:
 
 Open your browser and go to [http://127.0.0.1:8084](http://127.0.0.1:8084) or [my-own-identity-server.com](my-own-identity-server.com) to check server status.
 
+You can also add BitDust to your start up applications so it will always run when computer starts. For example on Debian system you can add it to cron - type `crontab -e` in your command line and add such line to the end of the file:
+
+        @reboot /usr/local/bin/bitdust daemon &
+
+
 
 ## Create dedicated identity
 
