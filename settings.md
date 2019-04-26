@@ -1,6 +1,10 @@
 
 # Settings
 
+In this section the different settings that can used for the BitDust network from command line are displayed. If you have any questions regarding this please contact the BitDust team (info@bitdust.io)
+
+
+
 
 ## Command line syntax
 

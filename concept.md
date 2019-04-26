@@ -3,65 +3,53 @@
 
 ## Basic Principles
 
-BitDust is a project of a worldwide distributed computer network designed for safe data storage, exchange, publishing, etc. It works over existing Internet connections or may use alternative transport methods. 
+BitDust is a project aiming for a worldwide distributed computer network designed to increase safety of data storage, exchange, publishing, etc. The BitDust network uses existing Internet connections or may use alternative transport methods in the near future. 
 
-BitDust project is based on the following principles:
+The BitDust project is based on the following principles:
 
-  * equal rights of all participants
-  * fair relationship
-  * openness, clarity, imagery
-  * confidence in the product
-  * personal information security
-  * the anonymous network logon
-  * usability
-  * scalability
-  * cross-platform
+  * Decentalisation
+  * Security
+  * Fairness
+  * Openness
+  * Anonymous
+  * Usability
+  * Scalability
 
   
 ## Decentralization
 
 BitDust is a holistic ecosystem, the basic idea of which is to complete the decentralization of information flows and stored data.
 Instead of the usual interaction model "client-server" BitDust network uses such links as "user-user".
-Connection and transmission of any information takes place directly from peer to peer in encrypted form, and user data are broken into multiple fragments and stored distributed randomly on machines of other users.
-Thus computers of all users provide a share of their hardware resources to the BitDust network to support its operations.
+Connection and transmission of any information takes place directly from peer to peer in encrypted form. User data is broken up into multiple fragments and is randomly distributed and stored on machines of other suppliers.
 
 
 ## Security
 
-Personal security of each user and the system on the whole is achieved by the BitDust architecture itself, by the encryption of outbound traffic and stored data and also by the algorithm of hiding actual IP address of personal computer in the Internet.
-Analogues of the widely known on-line services will be carried out in a completely different way – without need to work via any central server operators and identification of the machine and real user identity.
+Personal security of each user and the system as a whole is achieved by the BitDust architecture itself. This is reached by encrypting outbound traffic and stored data. In addition also by the algorithm of hiding actual IP address of personal computers in the Internet.
+Different from the existing widely known on-line services BitDust operates in a completely different way, since BitDust doesn't need to work via any central server operator to identifify the machine of the user, thereby protecting their real identity.
 
 
 ## Fairness
 
-A major point in our plan is the use of BitDust crypto-currency in order to monetize the project. 
-A fully decentralized and secure on-line market will create demand and supply of the individual users’ PC resources depending on their disk quota, computer and channel capacity, stability of network presence, rating in the system etc.
-We believe that all services must be free for users as long as they provide a sufficient share of their hardware resources to others.
-
+The blockchain within BitDust will be used to account for the work carried out (storage, data processing, data rebuilding, etc.) and to compensate supporters within the network. Blockchain will create an open and fair tracking of the internal economy within BitDust.
+BitDust will benefit the collaborative economy by allowing normal people to rent-out their hard disk space, thereby supporting the network.
 
 ## Openness
 
-The program is written in Python using Twisted Framework.
-We firmly believe that an open source code, proper documentation and visualization of all operating processes are necessary conditions for creation of a high quality product and thus a maximum security level of users’ personal data.
+We firmly believe that an open source code, proper documentation and visualization of all operating processes are necessary conditions for the creation of a quality product, thereby maximizing the security level of users’ personal data.
 
+## Anonymous
+
+Set-up an account and use BitDust completely anonymous. All data is fully encrypted using RSA & DSE3 encryption. Your private key which only you have provides you with the power to unlock your data.
 
 ## Usability
 
-With advanced level of security and anonymity all BitDust users will have an opportunity to:
+With advanced level of security and anonymity all BitDust users will have an opportunity to gain private access to a fully distributed online storage network. Via an easy to use application you will be able to upload files, share them with trusted contacts and chat completely anonymously. In short we want to make it so easy your grandmother could use is:). 
+In additon we are aiming to create a user-friendly environment whereby a user has full control over a majority of the existing elements within the BitDust application. 
+  
+## Scalability
 
-  * gain private access to the fully-distributed on-line storage
-  * group access to the uploaded data
-  * do files transfers
-  * p2p chat/video/conferencing
-  * decentralized emails
-  * global p2p search over published data
-  * synchronize personal data on all devices
-  * publish personal information for others
-  * create your own fully-distributed websites
-  * communicate in decentralized social network 
-  * work anonymously in Internet via local proxy
-
-We try to create an ultimate user-friendly environment which could have most of operating and control elements but be free from fundamental problems of the modern Internet. 
+The more supporters join the BitDust network the more storage can be offered to users. 
 
 
 

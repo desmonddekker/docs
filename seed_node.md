@@ -2,7 +2,7 @@
 
 Here is a step-by-step guide about how to start a full BitDust node that supports other nodes in the network and act as a "seed" node.
 
-You need to own a domain name which is already pointing DNS to your server.
+You need to own a domain name which is already pointing the DNS to your server.
 
 For example, you just started with a new Ubuntu server and logged in as `root` user, first create another user account to be able to run BitDust as a normal user without root priviledges:
 
@@ -23,13 +23,13 @@ First clone BitDust sources locally:
         git clone https://github.com/bitdust-io/public.git bitdust
 
 
-Create BitDust virtual Python environent:
+Create BitDust virtual Python environment:
         
         cd bitdust
         python bitdust.py install
 
 
-Few services needs to be enabled, by default they are turned off because normal user will most probably act as a customer/consumer at the beginning.
+Few services needs to be enabled, by default they are turned off because normal users will most probably act as a customer/consumer at the beginning.
 
 Switch ON identity server on your node so you will help other people to identify in the network - other users will store their identities on your host:
 
@@ -77,11 +77,11 @@ Restart BitDust and enjoy, your identity should be accessable on `http://my-doma
         bitdust restart
 
 
-If you plan to maintain your new BitDust node for awhile and support the network it make sense to include your node into a list of "well known" nodes, which are hard-coded in [networks.json](https://github.com/bitdust-io/public/blob/master/networks.json) file.
+If you plan to maintain your new BitDust node for a while and support the network it makes sense to include your node into a list of "well known" nodes, which are hard-coded in [networks.json](https://github.com/bitdust-io/public/blob/master/networks.json) file.
 
 You can Fork [Public Git Repository](https://github.com/bitdust-io/public), modify `networks.json` file in your forked repository and start a [Pull Request](https://github.com/bitdust-io/public/pulls) with your changes - this way we can collaborate all together and maintain a list of the most reliable BitDust seed nodes.
 
-Contact with BitDust contributors to notify about this new Seed node was started by you and one of the developers will approve your Pull Request.
+Contact the BitDust contributors to notify about this new Seed node was started by you and one of the developers will approve your Pull Request.
 
 
 

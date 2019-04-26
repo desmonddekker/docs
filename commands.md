@@ -7,7 +7,7 @@ start main BitDust process
 
 
 ### detach
-start BitDust in as a daemon process
+start BitDust as a daemon process
 
 
 ### restart
@@ -40,7 +40,7 @@ with your private key file
 
 
 ### identity erase
-delete local identity from this machine 
+delete local identity from the machine 
 
 
 ### key copy            
@@ -85,7 +85,7 @@ add given path as a top level item in the catalog
 
 ### file add [local path]
 replicate given path into the catalog,
-this will add to catalog all parent folders too
+this will add to the catalog all parent folders too
 
 
 ### file addtree [local folder path]
@@ -109,6 +109,7 @@ from catalog or only erase a given remote copy
 ### file delete local [full backup ID]
 remove only local copy of given backup,
 keep remote copy on suppliers HDD
+
 
 ### file queue        
 show a list of paths to be uploaded
@@ -135,20 +136,20 @@ so it will overwrite existing files by default
 
 
 ### restore abort [backup ID]
-abort currently running restore process of given item
+abort current running restore process of given item
 
 
 ### restore progress 
-show currently running downloads 
+show current running downloads 
 
 
 ### supplier list       
 show list of your suppliers
-nodes who stores your data on own machines
+nodes who stores your data on their machines
 
 
 ### supplier replace [IDURL or position]
-execute a fire/hire process for given supplier,
+execute a fire/hire process for a given supplier,
 another random node will replace him
 
 
@@ -163,7 +164,7 @@ and wait Ack packets to check their statuses
 
 ### customer list       
 show list of your customers
-nodes who stores own data on your machine
+nodes who stores their own data on your machine
 
 
 ### customer remove [IDURL]
