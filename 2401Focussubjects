@@ -12,7 +12,7 @@ Basic Requirements:
 7) Hosted default 4 suppliers by BitDust in the beginning
 
 
-Challenges:
+Challenges for now:
 a) BitDust should not drain your battery when BitDust is running.
 b) BitDust should fire up instantly from a users phone similar to Telegram or Whatsapp
 c) BitDust UI should be functional since we don't have a designer now.
@@ -24,8 +24,7 @@ h) When I type a message and I see the messages in the chat the other user doesn
 i) When I press back on the lower Android bar it closes the BitDust application, but you should go back within the BitDust application.
 j) When I receive a message and open the chat I should automatically scroll down.
 k) When somebody send a message I should see that I got a new message in the Friendslist.
-
-
+l) Change nickname.
 
 
 For later:
@@ -36,5 +35,4 @@ For later:
 5) Sending files/pictures in a (group) chat.
 6) A user can alter their settings.
 7) Setting a profile picture.
-8) Change nickname.
 9) When I receive a message and BitDust is running I should see it in the Android notifications. So when I am on the homescreen of my phone.
