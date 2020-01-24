@@ -1,0 +1,31 @@
+Aim: 
+
+Alpha version of decentralized encrypted messaging app for Android:
+
+Basic Requirements:
+1) Create an identity 
+2) Restore Identity
+3) Find friends
+4) Add Friends
+5) Delete Friends
+6) Chat with friends, only text (no file sharing, posting pictures, etc.).
+7) Hosted default 4 suppliers by BitDust in the beginning
+
+
+Challenges:
+a) BitDust should not drain your battery when BitDust is running.
+b) BitDust should fire up instantly from a users phone similar to Telegram or Whatsapp
+c) BitDust UI should be functional since we don't have a designer now.
+d) Fix the blackscreen on android. Start BitDust, close BitDust, Re-start BitDust, Then have blackscreen.
+
+
+
+For later:
+1) Sending a chat message when the other person is offline.
+2) Creating a group chat.
+3) Sending messages in a group chat.
+4) Adding or deleting people in a group chat.
+5) Sending files/pictures in a (group) chat.
+6) A user can alter their settings.
+7) Setting a profile picture.
+8) Change nickname.
